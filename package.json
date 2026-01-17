@@ -1,0 +1,14 @@
+{
+  "name": "kroneraad",
+  "private": true,
+  "packageManager": "pnpm@10.28.0",
+  "workspaces": ["apps/*", "packages/*"],
+  "scripts": {
+    "dev": "turbo dev",
+    "build": "turbo build",
+    "lint": "turbo lint"
+  },
+  "devDependencies": {
+    "turbo": "^2.7.4"
+  }
+}
